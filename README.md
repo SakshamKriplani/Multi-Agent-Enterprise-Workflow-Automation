@@ -1,5 +1,6 @@
 # Enterprise AI Workflow Orchestration Platform
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-000000.svg?logo=vercel&logoColor=white)](https://multi-agent-enterprise-workflow-aut.vercel.app)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![LangGraph](https://img.shields.io/badge/LangGraph-0.2.0+-FF4F00.svg)](https://langchain-ai.github.io/langgraph/)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB.svg?logo=react&logoColor=black)](https://react.dev/)
@@ -10,7 +11,8 @@
 
 An enterprise-grade, multi-agent workflow orchestration platform built for high-stakes business automation. Powered by **LangGraph**, **FastAPI**, and **React Flow**, this project demonstrates how to coordinate autonomous AI agents with **deterministic financial guardrails**, **fault-tolerant human-in-the-loop approval gates**, **restart-resilient state checkpointing**, and **real-time WebSocket event streaming**.
 
-> **Note:** All catalog vendors, pricing, and departmental budgets are synthetic. No real financial transactions are executed.
+> 🚀 **Live Demo:** [https://multi-agent-enterprise-workflow-aut.vercel.app](https://multi-agent-enterprise-workflow-aut.vercel.app)  
+> *(Note: All catalog vendors, pricing, and departmental budgets are synthetic. No real financial transactions are executed.)*
 
 ---
 
@@ -118,7 +120,17 @@ flowchart LR
 
 ---
 
-## ⚡ Quick Start
+## 🌐 Live Deployment
+
+The platform is deployed and fully accessible online:
+
+- 🖥️ **Live Web Application:** [https://multi-agent-enterprise-workflow-aut.vercel.app](https://multi-agent-enterprise-workflow-aut.vercel.app)
+- ⚙️ **Backend API Engine:** Hosted on [Render](https://render.com) (FastAPI + LangGraph + SQLite Checkpointer)
+- 📊 **Architecture & Execution Modes:** Runs in deterministic `demo` mode in public cloud; try the preloaded scenarios or enter custom procurement requests.
+
+---
+
+## ⚡ Quick Start (Run Locally)
 
 ### Option 1: Docker Compose (Recommended)
 
